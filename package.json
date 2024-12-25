@@ -1,0 +1,8 @@
+{
+  "name": "purescript-prettyprinter",
+  "version": "1.0.0",
+  "dependencies": {
+    "purescript": "^0.15.15",
+    "spago": "^0.21.0"
+  }
+}
