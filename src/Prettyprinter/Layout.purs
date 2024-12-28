@@ -28,7 +28,7 @@ newtype FittingPredicate ann
     )
 
 defaultPageWidth :: PageWidth
-defaultPageWidth = AvailablePerLine 30 0.5
+defaultPageWidth = AvailablePerLine 80 1.0
 
 defaultLayoutOptions :: LayoutOptions
 defaultLayoutOptions = LayoutOptions { layoutPageWidth: defaultPageWidth }
