@@ -112,10 +112,10 @@ unsafeViaShow = unsafeTextWithoutNewlines <<< show
 
 unsafeTextWithoutNewlines :: forall ann. String -> Doc ann
 unsafeTextWithoutNewlines t =
-  case S.uncons t of
+  case C.uncons t of
     Nothing -> Empty
     Just {head, tail}
-      | S.null tail -> Text 1 (S.singleton head)
+      | S.null tail -> Char head
       | otherwise -> Text (S.length t) t
 
 group :: forall ann. Doc ann -> Doc ann
