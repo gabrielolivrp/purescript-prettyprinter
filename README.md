@@ -1,7 +1,5 @@
 # Pretty Printer for PureScript
 
-> WORK IN PROGRESS
-
 ```purescript
 customLayoutOptions :: LayoutOptions
 customLayoutOptions = LayoutOptions { layoutPageWidth: AvailablePerLine 30 1.0 }
